@@ -12,7 +12,7 @@ The configuration uses loops and variables for scalability and reusability.
 
 ## Project Structure
 
-    ```plaintext
+    ```
     .
     ├── main.tf
     ├── variables.tf
@@ -22,7 +22,7 @@ The configuration uses loops and variables for scalability and reusability.
 
 ## RUN  
 
-    ```Bash  
+    ```bash  
     terraform init  
     terraform plan  
     terraform apply  
@@ -31,17 +31,17 @@ The configuration uses loops and variables for scalability and reusability.
 
 ## Project Output  
 
-    1- New VPC with 3 subnets (1 public, 2 private) , Internetgateway and Routetable  
+1- New VPC with 3 subnets (1 public, 2 private) , Internetgateway and Routetable  
 
-    ![VPC](https://github.com/OmarElshrief/IVolve-Intern/blob/main/terraform/Lab_1/VPC.png)  
+![VPC](https://github.com/OmarElshrief/IVolve-Intern/blob/main/terraform/Lab_1/VPC.png)  
 
-    2- EC2 instance in public subnet  
+2- EC2 instance in public subnet  
 
-    ![EC2](https://github.com/OmarElshrief/IVolve-Intern/blob/main/terraform/Lab_1/ec2%20.png)  
+![EC2](https://github.com/OmarElshrief/IVolve-Intern/blob/main/terraform/Lab_1/ec2%20.png)  
 
-    3- New RDS Database in private subnet  
+3- New RDS Database in private subnet  
 
-    ![RDS](https://github.com/OmarElshrief/IVolve-Intern/blob/main/terraform/Lab_1/RDS.png)
+![RDS](https://github.com/OmarElshrief/IVolve-Intern/blob/main/terraform/Lab_1/RDS.png)
 
 
 
