@@ -16,7 +16,8 @@ The configuration uses loops and variables for scalability and reusability.
     .
     ├── main.tf
     ├── variables.tf
-    ├── README.md
+    ├── README.md  
+    ```
 
 
 ## RUN  
@@ -25,6 +26,7 @@ The configuration uses loops and variables for scalability and reusability.
     terraform init  
     terraform plan  
     terraform apply  
+    ```
 
 
 ## Project Output  
