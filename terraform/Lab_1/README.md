@@ -12,21 +12,20 @@ The configuration uses loops and variables for scalability and reusability.
 
 ## Project Structure
 
-    ```
-    .
-    ├── main.tf
-    ├── variables.tf
-    ├── README.md  
-    ```
-
+```
+.
+├── main.tf
+├── variables.tf
+├── README.md  
+```
 
 ## RUN  
 
-    ```bash  
-    terraform init  
-    terraform plan  
-    terraform apply  
-    ```
+```bash  
+terraform init  
+terraform plan  
+terraform apply  
+```
 
 
 ## Project Output  
