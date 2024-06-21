@@ -1,1 +1,0 @@
-curl -H "Authorization: Bearer <token>" https://<api_server>/api/v1/namespaces/my-namespace/pods
